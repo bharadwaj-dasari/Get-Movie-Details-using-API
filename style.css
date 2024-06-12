@@ -1,0 +1,160 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    font-style: normal;
+    
+    
+}
+.B-dic::-webkit-scrollbar {
+    display: none;
+  }
+  .B-dic {
+    -ms-overflow-style: none;  
+    scrollbar-width: none;  
+  }
+  .B-title::-webkit-scrollbar {
+    display: none;
+  }
+  .B-title {
+    -ms-overflow-style: none;  
+    scrollbar-width: none;  
+  }
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+}
+h1{
+    text-align: center;
+    margin-top: 30px;
+}
+body{
+    background-color: #d8d8d8;
+}
+.out{
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.r{
+    height: 44px;
+    width: 150px;
+    text-align: center;
+    border-radius: 4px;
+    border: 4px solid black;
+    
+}
+#title{
+    height: 52px;
+    width: 400px;
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 4px;
+}
+
+.y{
+    height: 44px;
+    width: 130px;
+    text-align: center;
+    border-radius: 4px;
+    border: 4px solid black;
+}
+
+#search{
+    height: 52px;
+    width: 100px;
+    text-align: center; 
+    border: 4px solid black;
+    border-radius: 4px;
+    background-color: white;
+}
+label{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 402px;
+    
+}
+input[type="checkbox"] {
+    width: 20px;
+    height: 30px;
+    border: 5px solid black;
+}
+#ff{
+    margin-left: 5px;
+}
+.row{
+    margin: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.box {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    height: 250px;
+    flex-basis: 45%;
+    width: 600px;
+    background-color: white;
+    border: 10px solid black;
+    border-radius: 5px;
+    border-radius: 5px;
+    position: relative;
+    margin-top: 39px;
+}
+
+
+.img-sec{
+    height: 246px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#im {
+   width: 150px;
+   height: auto;
+}
+.txt{
+    margin: 15px ;
+}
+.B-title{
+    font-size: 25px;
+    height: 62px;
+    overflow: scroll;
+}
+.B-rating{
+    margin-top: 10px;
+    text-align: right;
+    font-size:  15px ;
+    height: 20px;
+}
+.B-dic{
+    margin-top: 10px;
+    font-size:  10px ;
+    height: 101px;
+    text-align: left;
+    overflow: scroll;
+}
+
+.more-content {
+    display: none;
+  }
+  
+  .more {
+    margin-top: 3px;
+    color: rgb(0, 137, 187);
+    cursor: pointer;
+  } 
+.B-year{
+    font-size:  15px ;
+    margin-top: 10px;
+    height: 20px;
+}
+
+

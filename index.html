@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Details</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Find your Favorite Films</h1>
+    <div class="out">
+        <input type="tel" class="min-rating r" placeholder="Rating-MIN" min="0" max="10">
+        To
+        <input type="tel" class="max-rating r" placeholder="Rating-MAX" min="0" max="10">
+        <input type="search" id="title" autofocus autocomplete="off" placeholder="TITLE" >
+        <input type="tel" class="min-year y" placeholder="year-MIN" min="0" max="2024">
+        TO
+        <input type="tel" class="max-year y" placeholder="year-MAX"min="0" max="2024">
+        <button type="submit" id="search">Search</button>
+    </div>
+    <label><input type="checkbox" class="fullWordMatch" ><p id="ff">Enable Full Word Match</p> </label>
+    <div class="row" id="mv-box">
+        
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
